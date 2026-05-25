@@ -10,6 +10,8 @@ cooking inspiration.
 - Framer Motion
 - React Icons
 - TheMealDB (recipes) + OpenRouter (AI suggestions)
+- Node.js + Express (Backend API)
+- MongoDB + Mongoose (Database)
 - LocalStorage caching + favorites
 
 ## Run locally
@@ -33,9 +35,12 @@ VITE_OPENROUTER_API_KEY=sk-or-v1-...
 - `/favorites` saved plates
 - `/recipe/$id` recipe details
 
-## Future backend
-An `Express + MongoDB` backend can be added under `server/` to proxy AI calls,
-sync favorites and host user recipes. The frontend works fully on its own.
+## Backend Stack
+The application uses an `Express + MongoDB` backend architecture located in the `server/` directory to manage recipes, proxy API calls, and sync user favorites securely.
+- **Framework:** Express.js
+- **Database:** MongoDB
+- **ODM:** Mongoose
+- **Routing:** RESTful API architecture
 
 Made with 🌸
 # RoseRecipe
