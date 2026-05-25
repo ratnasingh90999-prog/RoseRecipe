@@ -1,4 +1,4 @@
-# PlatePal AI 🌸
+# RoseRecipe 🌸
 
 A soft, aesthetic, AI-powered recipe discovery app. Type ingredients you have at
 home and get instant meal ideas, Pinterest-style recipe cards, and dreamy
